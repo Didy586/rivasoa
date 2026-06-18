@@ -1,0 +1,8 @@
+.overlay { position:fixed; inset:0; z-index:9999; background:rgba(30,0,20,.92); display:flex; flex-direction:column; align-items:center; justify-content:center; gap:1rem; }
+.close { position:fixed; top:1.2rem; right:1.5rem; background:rgba(255,255,255,.15); border:none; color:white; font-size:1.4rem; width:44px; height:44px; border-radius:50%; cursor:pointer; }
+.close:hover { background:#e53935; }
+.overlay img { max-width:90vw; max-height:78vh; border-radius:1rem; box-shadow:0 16px 60px rgba(0,0,0,.7); object-fit:contain; }
+.caption { color:#ffd6e7; font-weight:600; font-size:1rem; }
+.controls { display:flex; gap:1.5rem; }
+.controls button { background:rgba(255,255,255,.15); border:none; color:white; font-size:1.5rem; width:48px; height:48px; border-radius:50%; cursor:pointer; }
+.controls button:hover { background:#e91e8c; }
