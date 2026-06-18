@@ -37,7 +37,7 @@ export default function App() {
       {section === 'photo' && <Photo photos={photos} onUpload={addPhotos} />}
       {section === 'video' && <Video videos={videos} onUpload={addVideos} />}
       <footer style={{ textAlign:'center', padding:'2rem', color:'#c2185b', fontSize:'.85rem', borderTop:'1px solid rgba(244,143,177,.3)', marginTop:'2rem', fontFamily:"'Plus Jakarta Sans',sans-serif" }}>
-        ✦ SoaRiva &nbsp;·&nbsp; Créé avec passion &nbsp;·&nbsp; © 2026
+         SoaRiva &nbsp;·&nbsp; docteur_soariva &nbsp;·&nbsp; © 2026
       </footer>
     </>
   )
