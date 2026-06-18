@@ -29,8 +29,8 @@ export default function About({ images, audioTracks, photos, videos, onGoPhoto }
         {[
           { num: photos.length,  label: 'Photos'  },
           { num: videos.length,  label: 'Vidéos'  },
-          { num: '100%',         label: 'Gratuit' },
-          { num: 0,              label: 'Compte requis' },
+          { num: '11',         label: 'Souu' },
+          { num: '03',              label: 'Rivaaa' },
         ].map(s => (
           <div key={s.label} className={styles.stat}>
             <div className={styles.statNum}>{s.num}</div>
