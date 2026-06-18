@@ -3,7 +3,7 @@ import AudioPlayer from './AudioPlayer'
 import styles from './Slideshow.module.css'
 
 const TEXTS = [
-  { badge: '✦ Bienvenue',    title: 'Soa_Riva',              sub: 'Un espace doux et élégant pour vos plus beaux souvenirs.' },
+  { badge: ' Bienvenue',    title: 'Soa_Riva',              sub: 'Un espace doux et élégant pour vos plus beaux souvenirs.' },
   { badge: '🌸 Mémoire',     title: 'Des instants\nprécieux', sub: 'Chaque photo raconte une histoire unique et inoubliable.' },
   { badge: '🌍 Exploration', title: 'Votre galerie,\nvotre monde', sub: 'Organisez, explorez et partagez vos moments préférés.' },
   { badge: '💫 Éternité',    title: 'Souvenirs\npour toujours', sub: 'Capturez l\'essentiel et gardez-le près de vous.' },
